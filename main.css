@@ -27,7 +27,7 @@ body {
 }
 
 .section {
-    background-color: #34495E ;
+    background-color: black ;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -80,7 +80,7 @@ main {
 
 footer {
     width: 100%;
-    background-color:#D98880 ;
+    background-color:gray;
     padding: 16px;
     align-self: center;
     text-align: center;
@@ -107,6 +107,7 @@ form {
 .label {
     color: rgba(226, 227, 232, 0.75);
     font-size: 16px;
+    margin-left: 5px;
 }
 
 small {
@@ -129,8 +130,9 @@ small.errorOnce {
     font-size: 16px;
     width: 100%;
     background-color: transparent;
-    border: none;
-    border-bottom: 1px solid black;
+    /* border: none; */
+    border: 2px solid #fff;
+    border-radius: 20px;
     padding: 8px 0;
     appearance: none;
     outline: none;
@@ -138,7 +140,7 @@ small.errorOnce {
 
 .form-item i {
     font-size: 12px;
-    color: #D98880 ;
+    color: gray ;
 }
 
 .box-item {
@@ -205,7 +207,7 @@ small.errorOnce {
 }
 
 .submit:hover {
-    background-color: #D98880 ;
+    background-color: black ;
     border: 2px solid black;
 }
 
@@ -217,7 +219,7 @@ small.errorOnce {
     height: 800px;
     margin-top: -600px;
     margin-left: -400px;
-    background: #D98880 ;
+    background: gray;
     border-radius: 40%;
     animation: shift 20s infinite linear;
     z-index: 0;
